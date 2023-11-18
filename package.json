@@ -1,0 +1,14 @@
+{
+  "name": "korver.dev",
+  "author": "Casey Korver",
+  "email": "casey@korver.dev",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
