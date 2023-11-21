@@ -5,10 +5,12 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "check": "prettier --check .",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --incremental"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "prettier": "^3.1.0"
   }
 }
