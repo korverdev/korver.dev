@@ -1,0 +1,6 @@
+{
+	"name": "Dev Container - korver.dev",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+	"forwardPorts": [8080],
+	"postCreateCommand": "npm install"
+}
